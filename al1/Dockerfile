@@ -4,7 +4,7 @@ ENV RUSTUP_HOME=/usr/local/rustup \
     RUST_ARCH=x86_64-unknown-linux-gnu \
     CARGO_HOME=/usr/local/cargo \
     PATH=/usr/local/cargo/bin:$PATH \
-    RUST_VERSION=1.46.0
+    RUST_VERSION=1.47.0
 
 RUN curl https://static.rust-lang.org/rustup/dist/${RUST_ARCH}/rustup-init -o rustup-init ; \
     chmod +x rustup-init ; \
